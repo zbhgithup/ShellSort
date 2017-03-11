@@ -34,8 +34,8 @@ void InsertSort(T arr[],size_t size)
 			int temp = arr[idx];
 			int end = idx-1;
 			left = 0;
-			right = idx;
-			while (left<right)
+			right = end;
+			while (left<=right)
 			{
 				int mid = left+((right-left)>>1);
 				if(temp<arr[mid])
