@@ -2,7 +2,7 @@
 #pragma once
 //
 //template<class T>
-//void InsertSort(T arr[],size_t size)
+//void ShellSort(T arr[],size_t size)
 //{
 //	int gap = size/3+1;
 //	while (gap>0)
